@@ -4,7 +4,7 @@ import NavItems from "@/components/nav-items";
 
 const Navbar = () => {
     return (
-        <nav className="navbar">
+        <nav className="flex justify-between items-center px-14 py-4">
             <Link href="/public">
                 <div className="flex items-center gap-2.5 cursor-pointer">
                     <Image
